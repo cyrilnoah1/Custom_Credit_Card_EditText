@@ -25,39 +25,11 @@ public class CreditCardNumberTextWatcher implements TextWatcher
     @Override
     public void afterTextChanged(Editable s)
     {
-        if((s.length() > 0) && (s.length() % 5 == 0))
-        {
-            char ch= s.charAt(s.length() - 1);
-
-            if(Character.isDigit(ch) /*Checking if the current character is a digit*/
-                    && TextUtils.split(s.toString(), String.valueOf(numberGap)).length <= 3)
-            {
-                // Inserting gaps between
-                s.insert(s.length() - 1, String.valueOf(numberGap));
-                Log.v(LOG_TAG, "Gap inserted after four digits.");
-            }
-        }
-
-        // Detecting gaps after every four digits.
-        if((s.length() > 0) && (s.length() % 5 == 0))
-        {
-            char ch= s.charAt(s.length() - 1);
-
-            // Checking if the assigned character is a white-space.
-            if(ch == numberGap)
-            {
-                // Deleting the gap between FROM and TO
-                s.delete(s.length() - 1/*FROM*/, s.length()/*TO*/);
-
-                Log.v(LOG_TAG, "Gap removed between digits.");
-            }
-        }
-
         // Adding gap between every four digits.
-//        addGapBetweenNumbers(inputText);
+        addGapBetweenNumbers(s);
 
         // Removing gap between every four digits.
-//        removeGapBetweenNumbers(inputText);
+        removeGapBetweenNumbers(s);
     }
 
     /**
