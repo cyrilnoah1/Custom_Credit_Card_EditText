@@ -28,6 +28,9 @@ public class CreditCardNumberTextWatcher implements TextWatcher
         // Adding gap between every four digits.
         addGapBetweenNumbers(s);
 
+        // Seeing that gaps are not inserted between four-digit-set.
+        noGapsBetweenFourDigits(s);
+
         // Removing gap between every four digits.
         removeGapBetweenNumbers(s);
     }
@@ -50,6 +53,7 @@ public class CreditCardNumberTextWatcher implements TextWatcher
                 textInput.insert(textInput.length() - 1, String.valueOf(numberGap));
                 Log.v(LOG_TAG, "Gap inserted after four digits.");
             }
+
         }
     }
 
@@ -71,6 +75,58 @@ public class CreditCardNumberTextWatcher implements TextWatcher
                 textInput.delete(textInput.length() - 1/*FROM*/, textInput.length()/*TO*/);
                 
                 Log.v(LOG_TAG, "Gap removed between digits.");
+            }
+        }
+    }
+
+    /**
+     * Method that does not allow user to insert spaces in between
+     * four-digit-number-sets.
+     * @param textInput
+     */
+    private void noGapsBetweenFourDigits(Editable textInput)
+    {
+        // Not allowing gaps in first four-digit-set.
+        if((textInput.length() >= 1) && (textInput.length() <= 4))
+        {
+            // Getting current character
+            char currentChar= textInput.charAt(textInput.length() - 1);
+
+            // Checking if the current character is a space.
+            if(currentChar == ' ')
+            {
+                // Removing the current character if it's a space.
+                textInput.delete(textInput.length() - 1, textInput.length());
+            }
+        }
+        // Not allowing gaps in second four-digit-set.
+        else if((textInput.length() >= 6) && (textInput.length() <= 9))
+        {
+            char currentChar= textInput.charAt(textInput.length() - 1);
+
+            if(currentChar == ' ')
+            {
+                textInput.delete(textInput.length() - 1, textInput.length());
+            }
+        }
+        // Not allowing gaps in third four-digit-set.
+        else if((textInput.length() >= 11) && (textInput.length() <= 14))
+        {
+            char currentChar= textInput.charAt(textInput.length() - 1);
+
+            if(currentChar == ' ')
+            {
+                textInput.delete(textInput.length() - 1, textInput.length());
+            }
+        }
+        // Not allowing gaps in fourth four-digit-set.
+        else if((textInput.length() >= 16) && (textInput.length() <= 19))
+        {
+            char currentChar= textInput.charAt(textInput.length() - 1);
+
+            if(currentChar == ' ')
+            {
+                textInput.delete(textInput.length() - 1, textInput.length());
             }
         }
     }
