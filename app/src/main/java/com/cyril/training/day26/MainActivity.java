@@ -21,8 +21,9 @@ public class MainActivity extends AppCompatActivity
     /*
     * IMPORTANT:
     *
-    * Make sure to use "inputType='phone'" instead of "inputType='number'" as an
-    * attribute in EditText's View, in the Layout, in order to insert spaces between the input.
+    * Make sure to use "inputType='phone'" instead of "inputType='number'", and
+    * "digits='0123456789 '" as attributes in EditText's View,
+    * in the Layout, in order to insert spaces between the input.
     *
     * */
 
