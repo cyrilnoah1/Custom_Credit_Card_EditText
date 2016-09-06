@@ -29,7 +29,7 @@ public class CreditCardNumberTextWatcher implements TextWatcher
         addGapBetweenNumbers(s);
 
         // Seeing that gaps are not inserted between four-digit-set.
-        noGapsBetweenFourDigits(s);
+        noGapsBetweenFourDigitSets(s);
 
         // Removing gap between every four digits.
         removeGapBetweenNumbers(s);
@@ -84,7 +84,7 @@ public class CreditCardNumberTextWatcher implements TextWatcher
      * four-digit-number-sets.
      * @param textInput
      */
-    private void noGapsBetweenFourDigits(Editable textInput)
+    private void noGapsBetweenFourDigitSets(Editable textInput)
     {
         // Not allowing gaps in first four-digit-set.
         if((textInput.length() >= 1) && (textInput.length() <= 4))
