@@ -62,7 +62,6 @@ public class MainActivity extends AppCompatActivity
                     Log.v(LOG_TAG, "Insert full Card number.");
                     Toast.makeText(MainActivity.this, "Insert full Card number.", Toast.LENGTH_SHORT).show();
                 }
-
             }
         });
     }
