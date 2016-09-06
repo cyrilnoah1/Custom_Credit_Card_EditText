@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Training\Day26\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="true"
+        revision="23.0.0"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="D:\Training\Day26\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.0_fdca3110b8d55959296011bb165938452590eb92\classes.dex" />
+    </item>
+    <item
+        jar="D:\Training\Day26\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.0"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="D:\Training\Day26\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.0_383258552a0cd948c47342f2f5d4f0ea82a54829\classes.dex" />
+    </item>
+    <item
+        jar="D:\Training\Day26\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.0"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="D:\Training\Day26\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.0_bace40990594658350abf27f43ddaa4fbd333d39\classes.dex" />
+    </item>
+    <item
+        jar="D:\Training\Day26\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.0"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="D:\Training\Day26\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.0_c0915ef120c820ca485371d60a031415a67fe641\classes.dex" />
+    </item>
+    <item
+        jar="D:\Training\Day26\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.0"
+        sha1="959e386bcad7faa8f43334d1a6a9666ecd16e892">
+        <dex dex="D:\Training\Day26\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d9d051db5f8a18bf4c6686ff18afe4a79fb37d92\classes.dex" />
+    </item>
+    <item
+        jar="D:\Training\Day26\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.0"
+        sha1="832a8f98cd70783c056968873ef5be8ac64e75b5">
+        <dex dex="D:\Training\Day26\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_57802abf739bad914e2c1cf37e7d8a1d2ab0e696\classes.dex" />
+    </item>
+    <item
+        jar="D:\Training\Day26\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.0"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="D:\Training\Day26\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.0_78ed3e4f3b5e2912c740a6042e942ad708195230\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\RBADSK09\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="true"
+        revision="23.0.0"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="D:\Training\Day26\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.0_2eec8b7588abacc2743510bcb55445770e708f06\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxhdpi"
+    format="7"
+    timestamp="7832193209090"
+    token="3781260194035542234"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="122" />
+    <task
+        name="instant-run-dex"
+        duration="475" />
+    <task
+        name="instant-run-transform"
+        duration="17" />
+    <task
+        name="verifier"
+        duration="1" />
+
+    <artifact
+        location="D:\Training\Day26\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build timestamp="6881436767012" >
+        <artifact
+            location="D:\Training\Day26\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="7076030522907"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\Training\Day26\app\build\intermediates\builds\debug\7076030522907\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="7163112481067"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\Training\Day26\app\build\intermediates\builds\debug\7163112481067\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="7206552525311"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\Training\Day26\app\build\intermediates\builds\debug\7206552525311\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="7310646245918"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\Training\Day26\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="D:\Training\Day26\app\build\intermediates\builds\debug\7310646245918\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="7664078260475"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\Training\Day26\app\build\intermediates\builds\debug\7664078260475\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="7723132176108"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\Training\Day26\app\build\intermediates\builds\debug\7723132176108\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="7750758507563"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\Training\Day26\app\build\intermediates\builds\debug\7750758507563\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="7832193209090"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\Training\Day26\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>
