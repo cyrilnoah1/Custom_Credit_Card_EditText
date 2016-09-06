@@ -23,6 +23,7 @@
         android:layout_height="wrap_content"
         android:inputType="phone"
         android:ems="10"
+        android:digits="0123456789 "
         android:maxLength="19"
         android:id="@+id/editText_for_Credit_card"
         android:layout_alignParentBottom="true"
@@ -36,4 +37,5 @@
         android:id="@+id/button_to_submit_credit_card_number"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
+
 </RelativeLayout>

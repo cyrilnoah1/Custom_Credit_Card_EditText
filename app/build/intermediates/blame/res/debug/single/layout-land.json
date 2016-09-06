@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Training\\Day26\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\mdtp_date_picker_dialog.xml",
+        "source": "D:\\Training\\Day26\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.5.0\\res\\layout-land\\mdtp_date_picker_dialog.xml"
+    },
+    {
+        "merged": "D:\\Training\\Day26\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\mdtp_time_picker_dialog.xml",
+        "source": "D:\\Training\\Day26\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.5.0\\res\\layout-land\\mdtp_time_picker_dialog.xml"
+    }
+]

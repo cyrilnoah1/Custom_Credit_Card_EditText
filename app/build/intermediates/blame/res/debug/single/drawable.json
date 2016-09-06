@@ -44,6 +44,14 @@
         "source": "D:\\Training\\Day26\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
+        "merged": "D:\\Training\\Day26\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mdtp_material_button_selected.xml",
+        "source": "D:\\Training\\Day26\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.5.0\\res\\drawable\\mdtp_material_button_selected.xml"
+    },
+    {
+        "merged": "D:\\Training\\Day26\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mdtp_material_button_background.xml",
+        "source": "D:\\Training\\Day26\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.5.0\\res\\drawable\\mdtp_material_button_background.xml"
+    },
+    {
         "merged": "D:\\Training\\Day26\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
         "source": "D:\\Training\\Day26\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_radio_material.xml"
     },
@@ -78,6 +86,10 @@
     {
         "merged": "D:\\Training\\Day26\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
         "source": "D:\\Training\\Day26\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\Training\\Day26\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mdtp_done_background_color_dark.xml",
+        "source": "D:\\Training\\Day26\\app\\build\\intermediates\\exploded-aar\\com.wdullaer\\materialdatetimepicker\\2.5.0\\res\\drawable\\mdtp_done_background_color_dark.xml"
     },
     {
         "merged": "D:\\Training\\Day26\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_off_mtrl.xml",
