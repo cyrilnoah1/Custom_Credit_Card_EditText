@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity
         mTextViewForCardNumber = (TextView) findViewById(R.id.textView_for_credit_card);
         mEditTextForCardNumber = (EditText) findViewById(R.id.editText_for_Credit_card);
 
-        // Checking and adding gaps between every four numbers.
+        // Checking and adding gaps between every four numbers, using TextWatcher.
         mEditTextForCardNumber.addTextChangedListener(new CreditCardNumberTextWatcher());
 
         mSubmitButton = (Button) findViewById(R.id.button_to_submit_credit_card_number);
